@@ -26,16 +26,3 @@ desenhaQuadrado(0,0 , 'red');
 // desenhaQuadrado(0,50 , 'green');
 // desenhaQuadrado(0,100);
 // desenhaQuadrado(50,100, 'yellow');
-// -----------------------------------------------------------
-
-let tela = document.querySelector('canvas');
-let caneta = tela.getContext('2d');
-
-caneta.fillStyle = 'black';
-caneta.fillRect(0,0,600,400);
-
-function exibeAlerta(){
-    alert('Clicou');
-}
-
-tela.onclick = exibeAlerta;
